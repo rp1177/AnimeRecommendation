@@ -1,7 +1,7 @@
 # Anime Recommendation 
 
 ### Introduction
-This project is a Content-Based Anime Recommendation System. The goal is to provide users with anime recommendations based on their viewing history and preferences. 
+This project is a weighted hybrid Anime Recommendation System. The goal is to provide users with anime recommendations based on their viewing history and preferences. 
 
 ### Features
 Personalized Recommendations: The system provides personalized anime recommendations based on the user’s past watch history and ratings.
