@@ -1,0 +1,124 @@
+section {
+    /* Fill the viewport height to implement scrolling */
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+
+    background-color: #B04A5A;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100%;
+    background-size: cover;
+
+    /* animation transition*/
+    opacity: 0;
+    animation: fadeInUp 1.50s ease-out; 
+    opacity: 1;
+
+
+}
+
+.homepage{
+    margin: auto;
+    margin-top: 13.5%;
+    padding: 2.5rem;
+    border:0.125rem solid;
+    
+
+    font-family: 'Century Gothic',sans-serif;
+    border-color:aliceblue;
+    color:aliceblue;
+    font-size:small;
+
+    text-align: center;
+   
+}
+
+/* keeping div consistency for the different sections */
+.statement{
+    margin: auto;
+    margin-top: 13.5%;
+    padding: 2.5rem;
+    border:0.125rem solid;
+    
+
+    font-family: 'Century Gothic',sans-serif;
+    border-color:aliceblue;
+    color:aliceblue;
+    font-size:small;
+
+    text-align: center;
+    
+}
+
+
+.whymyanimate{
+    margin: auto;
+    margin-top: 13.5%;
+    padding: 2.5rem;
+    border:0.125rem solid;
+    
+
+    font-family: 'Century Gothic',sans-serif;
+    border-color:aliceblue;
+    color:aliceblue;
+    font-size:small;
+
+    text-align: center;
+    background-color:#B04A5A;
+}
+
+.homepage textarea.inputlist{
+    resize: none;
+
+    border-radius: 0.75rem;
+    border: none;
+    text-align: justify;
+    text-indent: 5%;
+
+    font-family:'Century Gothic',sans-serif;
+    background-color: aliceblue;
+    opacity:70%;
+
+}
+
+.homepage button.submitlist{
+    border-radius: 0.75rem;
+    border: none;
+    background: #FF8D6D;
+    color:aliceblue;
+
+    font-family:'Century Gothic',sans-serif;
+
+    height:1.5rem;
+    width:5rem;
+
+    transition-duration:0.45s;
+
+}
+
+button.submitlist:hover{
+    background-color:#F9E27D;  
+    /*color:#B04A5A;*/
+    font-family:'Century Gothic',sans-serif;
+    color:aliceblue;
+}
+
+@keyframes fadeInUp{
+    from {  
+        opacity:0;  
+    }  
+ 
+    to {  
+        opacity:1;  
+    }  
+
+
+}
