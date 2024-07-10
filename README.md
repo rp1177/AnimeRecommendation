@@ -1,18 +1,18 @@
 # Anime Recommendation: MyAniMate
 
-# Introduction/Summary:
+### Introduction/Summary:
 After getting the hang of content and collaborative filtering, I thought it’d be cool to build my own anime recommendation system. Crunchyroll’s slow UI and Netflix’s limited anime options were kind of a bummer. So, I made MyAniMate to find new animes for myself. However, the system has a limitation where the dataset only expands up to 2023 user ratings and animes.
 
-## Dataset used:
+### Dataset used:
 https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset/data 
 
-## Language used: 
+### Language used: 
 Python
 
-## Libraries used:
+### Libraries used:
 Fuzzywuzzy, Ipyplot, Pandas, Matplotlib, Nltk, Numpy, and Scikit-learn
 
-## Development Process:
+### Development Process:
 
 1.) Downloaded a dataset from Kaggle and loaded it into a DataFrame.
 
@@ -32,6 +32,6 @@ Fuzzywuzzy, Ipyplot, Pandas, Matplotlib, Nltk, Numpy, and Scikit-learn
 
 9.) Subtract the user's average score against the rest of the scores. The top 30 smallest differences in scores will be recommended to the user.
 
-## Future Developments:
+### Future Developments:
 
 Currently testing different weights and use cases of the recommendation system. In addition to that, a website is still under construction.
