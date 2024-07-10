@@ -3,6 +3,9 @@
 # Introduction/Summary:
 After getting the hang of content and collaborative filtering, I thought it’d be cool to build my own anime recommendation system. Crunchyroll’s slow UI and Netflix’s limited anime options were kind of a bummer. So, I made MyAniMate to find new animes for myself. However, the system has a limitation where the dataset only expands up to 2023 user ratings and animes.
 
+## Dataset used:
+https://www.kaggle.com/datasets/dbdmobile/myanimelist-dataset/data 
+
 ## Language used: 
 Python
 
