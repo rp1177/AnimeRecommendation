@@ -50,5 +50,5 @@ Hybrid: This system uses content-based and collaborative filtering techniques (a
 
 
 ### Next steps:
-The project is still under development. The goal is to implement an accessible and interactive website. Updates are made via CI/CD
+The project is still under development. The goal is to implement an accessible and interactive website. Updates are made with Git.
 
