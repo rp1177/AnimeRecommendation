@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+body{
+    overflow: hidden; 
+    background-repeat: repeat;
+    background-size: cover;
+    background: linear-gradient(
+      180deg,
+      rgb(57, 47, 60) 0%,
+      rgba(57.25, 47.99, 62.9, 0.98) 0.01%,
+      rgb(39.87, 28.06, 53.66) 0.02%,
+      rgba(21.71, 20.31, 70.66, 0.87) 30.19%,
+      rgb(248.28, 99.56, 37.86) 100%,
+      rgba(250, 167, 136, 0.76) 100%,
+      rgba(180, 121, 139, 0.98) 100%,
+      rgba(210, 154, 165, 0.93) 100%
+    );
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.homepage {
+  /* background-color: rgba(255, 255, 255, 1); */
+  overflow: hidden; 
+  background-repeat: repeat;
+  background-size: cover;
+  background: linear-gradient(
+    180deg,
+    rgb(57, 47, 60) 0%,
+    rgba(57.25, 47.99, 62.9, 0.98) 0.01%,
+    rgb(39.87, 28.06, 53.66) 0.02%,
+    rgba(21.71, 20.31, 70.66, 0.87) 30.19%,
+    rgb(248.28, 99.56, 37.86) 100%,
+    rgba(250, 167, 136, 0.76) 100%,
+    rgba(180, 121, 139, 0.98) 100%,
+    rgba(210, 154, 165, 0.93) 100%
+  );
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.homepage .div {
+  width: 85.375rem;
+  height: 48rem;
+  position: relative;
+}
+
+.homepage .overlap-group {
+  position: absolute;
+  width: 73.875rem;
+  height: 43.563rem;
+  top: 2.375rem;
+  left: 5.813rem;
+  border: 0.25rem solid;
+  border-color: #fae4dd80;
+}
+
+.homepage .overlap {
+  position: absolute;
+  width: 44.25rem;
+  height: 10.813rem;
+  top: 12.625rem;
+  left: 14.75rem;
+}
+
+.homepage .textbox {
+  position: absolute;
+  width: 23rem;
+  height: 1.938rem;
+  top: 7.4rem;
+  left: 10.625rem;
+  background-color: #d9d9d9;
+  border-radius: 3.125rem;
+  backdrop-filter: blur(0.25rem) brightness(100%);
+  -webkit-backdrop-filter: blur(0.25rem) brightness(100%);
+}
+
+.homepage .text-wrapper {
+  position: absolute;
+  width: 38.875rem;
+  top: -0.625rem;
+  left: 2.688rem;
+  font-family: 'Grechen Fuemen', Helvetica;
+  font-weight: 400;
+  color: #f9e3dc;
+  font-size: 5rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.homepage .p {
+  position: absolute;
+  width: 44.25rem;
+  height: 3.75rem;
+  top: 4.5rem;
+  left: 0;
+  font-family: 'Schoolbell', Helvetica;
+  font-weight: 400;
+  color: #fae4dd;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .text-wrapper-2 {
+  position: absolute;
+  width: 15.875rem;
+  height: 3.125rem;
+  top: 7.688rem;
+  left: 14.25rem;
+  font-family: 'Schoolbell', Helvetica;
+  font-weight: 400;
+  color: #4d496780;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .overlap-2 {
+  position: absolute;
+  width: 14.25rem;
+  height: 3.5rem;
+  top: 23.813rem;
+  left: 29.813rem;
+}
+
+.homepage .submit-button {
+  position: absolute;
+  width: 10.375rem;
+  height: 2.063rem;
+  top: 0rem;
+  left: 1.938rem;
+  background-color: #312c52;
+  border-radius: 3.125rem;
+}
+
+.homepage .text-wrapper-3 {
+  position: absolute;
+  width: 14.25rem;
+  height: 3.5rem;
+  top: 0;
+  left: 0;
+  font-family: 'Schoolbell', Helvetica;
+  font-weight: 400;
+  color: #fae4dd;
+  font-size: 1.25rem;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.homepage .overlap-3 {
+  position: absolute;
+  width: 21.875rem;
+  height: 6.875rem;
+  top: -11.125rem;
+  left: -18.25rem;
+}
+
+.homepage .vector {
+  position: absolute;
+  width: 333px;
+  height: 110px;
+  top: 0;
+  left: 0;
+}
+
+.homepage .star {
+  position: absolute;
+  width: 40px;
+  height: 38px;
+  top: 13px;
+  left: 310px;
+}
